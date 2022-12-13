@@ -1,0 +1,259 @@
+body{
+    background: linear-gradient(to top,#222020,#000000);
+    overflow-x: hidden;
+}
+header
+{
+    background: #BBBBBB;
+    padding: 20px 0;
+    background-color: #000000;
+    height: 250px;
+}
+.caixa
+{
+    position: relative;
+    width: 940px;
+    margin: 20px auto;
+}
+nav
+{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+nav li /*Home,Contato,Produtos*/
+{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a
+{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+/*CARDS CABELO,BARBA,CABELO+BARBA*/
+.produtos li
+{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #ffffff;
+    border: 5px solid #000000;
+    margin: 0 1.5% 0;
+    padding: 30px 10px;
+    box-sizing: border-box ;
+    border-radius: 10px;
+}
+.produtos li h2:hover
+{
+    border-color: #BBBBBB;
+    font-size: 34px;
+}
+.produtos h2:hover
+{
+    font-size: 34px;
+}
+.produtos
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-preço
+{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+.produto-descrição
+{
+    font-size: 18px;
+}
+main
+{
+    width: 940px;
+    margin: 0 auto;
+}
+.barbeariaalura
+{
+    text-align: center;
+    font-size: 50px;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #222020;
+    border-radius: 20px color(white);
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border-radius: 50px;
+    border: #fefefe 2px;
+}
+header ul li a:hover , 
+header ul li a.active
+{
+    background: #222020;
+    color: #ffffff;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+footer
+{
+    background-image: url(bg.jpg);
+    text-align: center;
+    padding: 20px;
+}
+.copyright
+{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.barbeariaalura
+{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/*__________________________________________________________________________FORMULARIO____________________________________________________________*/
+
+form
+{
+    margin: 40px;
+    color: #ffffff;
+}
+form label
+{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.input-padrao
+{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px 50px 50px 10px;
+    padding: 15px 55px 15px 15px;
+    width: 50%;
+    background-color: #000000;
+    box-shadow: #ffffff;
+    color: #ffffff ;
+    font-size: 20px;
+}
+#Enviar
+{
+    font-size: 20px;
+    border-radius: 10px 50px 50px 50px;
+    margin: 0%;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+form #Enviar:hover
+{
+    background: linear-gradient(#000000,#222020);
+}
+.ser-atendido label
+{
+    background-color: #000000;
+    padding:15px 55px 15px 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 50px 50px 50px 50px;
+}
+.ser-atendido label:hover
+{
+    background: linear-gradient(#000000,#222020);
+}
+
+/*____________________________________________________________________________CHECKBOX____________________________________________________________*/
+.container-label{
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+  
+  }
+  
+  .container-label input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  
+  }
+  
+  .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+  }
+  .container-label input:checked ~ .checkmark{
+    background-color: #000000;
+    border: none;
+  }
+  
+  .checkmark::after{
+    display: none;
+    content: '';
+    position: absolute;
+  }
+  
+  .container-label .checkmark::after{
+    content: '';
+   left: 4px;
+   top: 0px;
+   width: 5px;
+   height: 9px;
+   transform: rotate(45deg);
+   border-right: 3px solid #fff;
+   border-bottom: 3px solid #fff;
+  
+  }
+  
+  .container-label input:checked ~ .checkmark::after{
+    display: block;
+  }
+
+/*____________________________________________________________________________CHECKBOX____________________________________________________________*/
+/*____________________________________________________________________________DROP-DOWN____________________________________________________________*/
+
+.drop-down
+{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 50px 10px 10px 50px;
+    padding: 15px;
+    width: 15%;
+    background-color: #000000;
+    box-shadow: #ffffff;
+    color: #ffffff ;
+    font-size: 20px;
+}
+.drop-down:hover
+{
+    background: linear-gradient(#000000,#222020);
+}
