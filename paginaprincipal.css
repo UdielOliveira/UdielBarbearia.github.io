@@ -137,3 +137,11 @@ em strong {
     border-radius: 50px;
     border: #fefefe 2px;
 }
+
+footer
+{
+    background-image: url(bg.jpg);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
