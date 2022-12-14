@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="UTF-8">
+
+            <link rel="stylesheet" href="reset.css">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link rel="stylesheet" href="produtos.css">
+            <title>Contato - Barbearia Alura</title>
+
+        </head>
+        
+        <body>
+            <header>   <!--CABEÇALHO-->
+            <div class="caixa">
+                <h1><img src="UDIELLOGO1.png"></h1>
+
+                <nav>
+                    <ul class="navegação"><!--NAVEGAÇÂO-->
+                        <li><a href="Pagina-Principal.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="agendamentoonline.html">Agendamento Online</a></li>
+                    </ul><!--NAVEGAÇÂO-->
+                </nav>
+            </div>
+            <h3 class="barbeariaalura">Barbearia Alura-Contato|</h3>
+            </header>  <!--CABEÇALHO-->
+
+            <main>
+
+                <form><!--NOME E SOBRENOME, EMAIL, TELEFONE-->
+
+                        <label for="nome_sobrenome">Nome Completo</label>
+                        <input type="text" id="nome_sobrenome" class="input-padrao">
+
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" class="input-padrao">
+
+                        <label for="Telefone">Telefone</label>
+                        <input type="tel" id="Telefone" class="input-padrao">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+                        
+                    <div class="ser-atendido"><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
+                        <p class="input-padrao">Como prefere ser Atendido?</p>
+                        
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                        
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> WhatsApp</label>
+                        
+                    </div><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
+                    
+                    <div><!--DROPDOWN-->
+                        <p class="input-padrao">Qual horario prefere ser atendido?</p>
+                        <select class="drop-down">
+                            <option class="input-padrao">Manhã</option>
+                            <option class="input-padrao">Tarde</option>
+                            <option class="input-padrao">Noite</option>
+                        </select>
+                    </div><!--DROPDOWN-->
+
+                    <label class="container-label">
+                        
+                        <input type="checkbox" checked="checked">
+    
+                        <span class="checkmark"></span>
+                        Gostaria de Receber noss novidades por email?
+                      </label>
+
+                    <input type="submit" id="Enviar" class="input-padrao">
+
+                    <div class="circulo-contato">
+                        <img src="user.png">
+                    </div>
+
+                </form>
+
+            </main>
+
+            
+
+            <footer>   <!--RODAPÉ-->
+                <img src="UDIELLOGO1.png">
+                <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+            </footer>  <!--RODAPÉ-->
+
+        </body>
+
+    </html> 
