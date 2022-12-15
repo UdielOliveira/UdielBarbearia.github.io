@@ -281,5 +281,10 @@ form #Enviar:hover
     border-radius: 50%;
     box-shadow: #ffffff;
 }
+.user
+{
+    border-radius: 100%;
+    box-shadow: 20px 20px 50px #0f0f0f;
+}
 /*________________________________________________________________ANIMAÇÃO NAV________________________________________________________*/
 
