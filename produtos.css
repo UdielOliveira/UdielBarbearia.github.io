@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to top,#222020,#000000);
+    background: #000000;
     overflow-x: hidden;
 }
 header
@@ -33,55 +33,19 @@ nav a
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    position: relative;
 }
+
 /*CARDS CABELO,BARBA,CABELO+BARBA*/
-.produtos li
-{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    background: #ffffff;
-    border: 5px solid #000000;
-    margin: 0 1.5% 0;
-    padding: 30px 10px;
-    box-sizing: border-box ;
-    border-radius: 10px;
-}
-.produtos li h2:hover
-{
-    border-color: #BBBBBB;
-    font-size: 34px;
-}
-.produtos h2:hover
-{
-    font-size: 34px;
-}
-.produtos
-{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-.produtos h2
-{
-    font-size: 30px;
-    font-weight: bold;
-}
-.produto-preço
-{
-    font-size: 22px;
-    font-weight:bold;
-    margin-top: 10px;
-}
-.produto-descrição
-{
-    font-size: 18px;
-}
+
 main
 {
     width: 940px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000000;
 }
 .barbeariaalura
 {
@@ -100,11 +64,20 @@ main
     border-radius: 50px;
     border: #fefefe 2px;
 }
-header ul li a:hover , 
-header ul li a.active
+nav a::after
 {
-    background: #222020;
-    color: #ffffff;
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #222020;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after
+{
+    width: 100%;
 }
 
 header ul li a
@@ -114,7 +87,7 @@ header ul li a
     color: white;
     border-radius: 20px;
 }
-footer
+footer /*RODAPÉ*/
 {
     background-image: url(bg.jpg);
     text-align: center;
@@ -270,4 +243,66 @@ form #Enviar:hover
     background-color: #222020;
     border-radius: 50%;
     box-shadow: #ffffff;
+}
+/*__________________________________________________________________________CARDS________________________________________________________*/
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    z-index: 1;
+}
+.container .produto
+{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px #0f0f0f;
+    border-radius: 15px;
+    background: #181515;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    border-left: #ffffff;
+}
+.container .produto .content
+{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .produto:hover .content
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container .produto .content h2
+{
+    position:absolute;
+    top: -20px;
+    right: 40px;
+    font-size: 10em;
+    color:#1b1a1a;
+    pointer-events: none;
+    z-index: -1;
+}
+.container .produto .content h3
+{
+    font-size: 1.8em;
+    color: #ffffff;
+    z-index: 1;
+}
+.container .produto .content p
+{
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 300;
 }

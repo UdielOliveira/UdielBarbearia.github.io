@@ -38,6 +38,7 @@ nav a
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    position: relative;
 }
 header ul li a
 {
@@ -47,11 +48,20 @@ header ul li a
     border-radius: 20px;
 }
 
-header ul li a:hover , 
-header ul li a.active
+nav a::after
 {
-    background: #222020;
-    color: #ffffff;
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #222020;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after
+{
+    width: 100%;
 }
 .barbeariaalura
 {
