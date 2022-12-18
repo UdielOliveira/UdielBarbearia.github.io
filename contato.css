@@ -35,50 +35,6 @@ nav a
     text-decoration: none;
     position: relative;
 }
-/*CARDS CABELO,BARBA,CABELO+BARBA*/
-.produtos li
-{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    background: #ffffff;
-    border: 5px solid #000000;
-    margin: 0 1.5% 0;
-    padding: 30px 10px;
-    box-sizing: border-box ;
-    border-radius: 10px;
-}
-.produtos li h2:hover
-{
-    border-color: #BBBBBB;
-    font-size: 34px;
-}
-.produtos h2:hover
-{
-    font-size: 34px;
-}
-.produtos
-{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-.produtos h2
-{
-    font-size: 30px;
-    font-weight: bold;
-}
-.produto-preço
-{
-    font-size: 22px;
-    font-weight:bold;
-    margin-top: 10px;
-}
-.produto-descrição
-{
-    font-size: 18px;
-}
 main
 {
     width: 940px;
@@ -186,10 +142,12 @@ form #Enviar:hover
     margin-bottom: 10px;
     width: 35%;
     border-radius: 50px 50px 50px 50px;
+    transition: 1s background;
 }
 .ser-atendido label:hover
 {
-    background: linear-gradient(#000000,#222020);
+    background:#0c0b0b;
+ /* don't forget to set a duration! */
 }
 
 /*____________________________________________________________________________CHECKBOX____________________________________________________________*/

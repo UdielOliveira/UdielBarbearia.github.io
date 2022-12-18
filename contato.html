@@ -7,6 +7,11 @@
             <link rel="stylesheet" href="reset.css">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <link rel="stylesheet" href="contato.css">
+            <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
+            <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
             <title>Contato - Barbearia Alura</title>
 
         </head>
@@ -14,7 +19,7 @@
         <body>
             <header>   <!--CABEÇALHO-->
             <div class="caixa">
-                <h1><img src="UDIELLOGO1.png"></h1>
+                <h1><img src="UDIELLOGO1.png" alt="Logo do site"></h1>
 
                 <nav>
                     <ul class="navegação"><!--NAVEGAÇÂO-->
@@ -35,6 +40,7 @@
                         <input type="text" id="nome_sobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
 
                         <label for="Email">Email</label>
+                        
                         <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                         <label for="Telefone">Telefone</label>
@@ -43,8 +49,8 @@
                         <label for="mensagem">Mensagem</label>
                         <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
                         
-                    <div class="ser-atendido"><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
-                        <p class="input-padrao">Como prefere ser Atendido?</p>
+                    <fieldset class="ser-atendido"><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
+                        <legend class="input-padrao">Como prefere ser Atendido?</legend>
                         
                         <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
 
@@ -52,16 +58,16 @@
                         
                         <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> WhatsApp</label>
                         
-                    </div><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
+                    </fieldset><!--COMO PREFERE SER ATENDIDO(EMAIL, TELEFONE, WHATSAPP)-->
                     
-                    <div><!--DROPDOWN-->
-                        <p class="input-padrao" checked>Qual horario prefere ser atendido?</p>
+                    <fieldset><!--DROPDOWN-->
+                        <legend class="input-padrao" checked>Qual horario prefere ser atendido?</legend>
                         <select class="drop-down">
                             <option class="input-padrao">Manhã</option>
                             <option class="input-padrao">Tarde</option>
                             <option class="input-padrao">Noite</option>
                         </select>
-                    </div><!--DROPDOWN-->
+                    </fieldset><!--DROPDOWN-->
 
                     <label class="container-label">
                         
@@ -78,13 +84,11 @@
                     </div>
 
                 </form>
-
+                
             </main>
 
-            
-
             <footer>   <!--RODAPÉ-->
-                <img src="UDIELLOGO1.png">
+                <img src="UDIELLOGO1.png" alt="logo do site">
                 <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
             </footer>  <!--RODAPÉ-->
             <script type="text/javascript" src="vanilla-tilt.js"></script>
