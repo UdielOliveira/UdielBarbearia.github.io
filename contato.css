@@ -250,7 +250,7 @@ form #Enviar:hover
 
 table
 {
-    margin: 40px -225px 40px;
+    margin: 40px -150px 40px;
     width: 30%;
     margin-right: 1px;
 }
@@ -268,4 +268,5 @@ td,th
     color: #ffffff;
     padding:20px;
     font-size: 20px;
+    text-align: center;
 }
