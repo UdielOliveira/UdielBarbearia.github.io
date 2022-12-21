@@ -130,10 +130,11 @@ form label
     margin: 0%;
     padding: 10px 30px;
     color: #ffffff;
+    transition: 1s background;
 }
 form #Enviar:hover
 {
-    background: linear-gradient(#000000,#222020);
+    background: #222020;
 }
 .ser-atendido label
 {
@@ -245,4 +246,26 @@ form #Enviar:hover
     box-shadow: 20px 20px 50px #0f0f0f;
 }
 /*________________________________________________________________ANIMAÇÃO NAV________________________________________________________*/
+/*________________________________________________________________TABELA________________________________________________________*/
 
+table
+{
+    margin: 40px -225px 40px;
+    width: 30%;
+    margin-right: 1px;
+}
+thead
+{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+td,th
+{
+    border: 2px solid #000000;
+    color: #ffffff;
+    padding:20px;
+    font-size: 20px;
+}
