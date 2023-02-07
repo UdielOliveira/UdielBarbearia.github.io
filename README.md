@@ -2,8 +2,8 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/UdielOliveira/Barbearia?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/UdielOliveira/Barbearia?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/UdielOliveira/UdielBarbearia.github.io?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/UdielOliveira/UdielBarbearia.github.io?style=for-the-badge)
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 
