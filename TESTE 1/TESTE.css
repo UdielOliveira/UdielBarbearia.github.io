@@ -81,7 +81,7 @@ header {
 
   
 h1 {
-    color: #333;
+    color: #000000;
     font-size: 36px;
     margin: 20px 0;
     display: flex;
@@ -89,7 +89,7 @@ h1 {
     margin-top: 170px;
 }
 p {
-    color: #666;
+    color: #ffffff;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
