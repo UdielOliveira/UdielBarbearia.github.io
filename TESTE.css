@@ -1,0 +1,158 @@
+body {
+    background-image: url(breathtaking-view-snowy-mountains-cloudy-sky-patagonia-chile.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Estilo para o cabeçalho */
+header {
+    color: #fff; /* Define a cor do texto */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    display: flex; /* Usa o display flex para alinhar itens horizontalmente */
+    justify-content: space-between; /* Define o espaçamento entre itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    border-bottom: 2px solid white;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Estilo para o título do cabeçalho */
+  .titulo {
+    margin: 0;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+    width: 5px;
+    font-size: 25px;
+    color: white;
+  }
+  .titulo:hover
+  {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.15s;
+  }
+  
+  /* Estilo para a lista de navegação */
+  nav ul {
+    list-style: none; /* Remove o estilo de lista padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex; /* Usa o display flex para alinhar itens horizontalmente */
+  }
+  
+  /* Estilo para os itens da lista de navegação */
+  nav li {
+    margin-left: 20px; /* Adiciona uma margem à esquerda */
+  }
+  
+  /* Estilo para os links da lista de navegação */
+  nav li a {
+    color: #000000; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 16px; /* Define o tamanho da fonte */
+    background-color: white;
+    padding: 5px 20px;
+  }
+  nav li a:hover
+  {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: 0.15s;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #4f4f4f;
+    border-radius: 20px color(rgb(255, 255, 255));
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: white;
+    border-radius: 50px;
+    border: #fefefe 2px;
+}
+
+  
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
+}
+form {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 70px 500px 20px;
+    backdrop-filter: blur(10px);
+}
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+input[type="text"],
+input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid;
+}
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    backdrop-filter: blur(20px);
+}
