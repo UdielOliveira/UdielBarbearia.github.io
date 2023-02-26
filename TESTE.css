@@ -1,5 +1,5 @@
 body {
-    background-image: url(breathtaking-view-snowy-mountains-cloudy-sky-patagonia-chile.jpg);
+    background-image: url(190301_1_25_11.mp4);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,12 +9,12 @@ body {
 /* Estilo para o cabeçalho */
 header {
     color: #fff; /* Define a cor do texto */
-    padding: 20px; /* Adiciona um preenchimento interno */
+    padding: 0px 20px; /* Adiciona um preenchimento interno */
     display: flex; /* Usa o display flex para alinhar itens horizontalmente */
     justify-content: space-between; /* Define o espaçamento entre itens */
     align-items: center; /* Alinha os itens verticalmente */
     border-bottom: 2px solid white;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(05px);
   }
   
   /* Estilo para o título do cabeçalho */
@@ -102,18 +102,18 @@ img {
     max-width: 70%;
 }
 form {
-    background-color: transparent;
-    border: 2px solid #ffffff;
+    background-color: #2e2b2b;
+    border: 2px solid #2e2b2b;
     padding: 20px;
     max-width: 500px;
     margin: 70px 500px 20px;
-    backdrop-filter: blur(10px);
+    border-radius: 15px;
 }
 label {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 input[type="text"],
 input[type="email"] {
@@ -126,7 +126,7 @@ input[type="email"] {
 }
 input[type="submit"] {
     background-color: transparent;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 20px;
     font-size: 18px;
     border: none;
@@ -156,3 +156,13 @@ a:hover {
     transition: 0.5s;
     backdrop-filter: blur(20px);
 }
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
