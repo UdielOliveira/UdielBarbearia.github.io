@@ -25,12 +25,12 @@ windows, Macs e Linux:
 https://udieloliveira.github.io/UdielBarbearia.github.io/
 ```
 
-<h1 style: align="center">🤝 Desenvolvedores</h1>
+<h1  align="center">🤝 Desenvolvedores</h1>
 
 <table style: align="center">
     
 <td align="center">
-    <img loading="lazy" src="https://avatars.githubusercontent.com/u/141747747?v=4" width="115px;" border-radius="50px;"><br>
+    <img loading="lazy" src="https://avatars.githubusercontent.com/u/141747747?v=4" width="115px;"><br>
   <a href="https://github.com/K1Melo">
       <sub>
           Kauã Fernandes
